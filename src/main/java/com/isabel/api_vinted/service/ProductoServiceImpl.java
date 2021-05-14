@@ -60,6 +60,7 @@ public class ProductoServiceImpl implements ProductoService {
         nuevoProducto.setDescripcion(productoDTO.getDescripcion());
         nuevoProducto.setPrecio(productoDTO.getPrecio());
         nuevoProducto.setCategoria(productoDTO.getCategoria());
+        nuevoProducto.setUrl(productoDTO.getUrl());
 
         return productoRepository.save(nuevoProducto);
     }

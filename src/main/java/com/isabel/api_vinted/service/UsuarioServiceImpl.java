@@ -35,7 +35,9 @@ public class UsuarioServiceImpl implements UsuarioService {
 
         Usuario nuevoUsuario = new Usuario();
         nuevoUsuario.setNombre(usuarioDTO.getNombre());
+        nuevoUsuario.setApellidos(usuarioDTO.getApellidos());
         nuevoUsuario.setEmail(usuarioDTO.getEmail());
+        nuevoUsuario.setCiudad(usuarioDTO.getCiudad());
         nuevoUsuario.setPassword(usuarioDTO.getPassword());
 
         return usuarioRepository.save(nuevoUsuario);

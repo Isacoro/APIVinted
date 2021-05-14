@@ -1,194 +1,106 @@
-2021-05-13 19:46:03,709 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 14192 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
-2021-05-13 19:46:03,709 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-05-13 19:46:04,063 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-05-13 19:46:04,080 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
-2021-05-13 19:46:04,516 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
-2021-05-13 19:46:04,533 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
-2021-05-13 19:46:04,533 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2021-05-13 19:46:04,533 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-05-13 19:46:04,596 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2021-05-13 19:46:04,596 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 866 ms
-2021-05-13 19:46:04,694 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-05-13 19:46:04,717 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
-2021-05-13 19:46:04,796 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-05-13 19:46:04,848 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-05-13 19:46:04,933 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-05-13 19:46:04,948 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
-2021-05-13 19:46:05,268 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-05-13 19:46:05,284 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-05-13 19:46:05,465 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-13 19:46:05,519 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-13 19:46:05,612 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
-2021-05-13 19:46:05,619 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
-2021-05-13 19:46:05,619 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiVintedApplication in 2.211 seconds (JVM running for 2.467)
-2021-05-13 19:46:21,139 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-05-13 19:46:21,140 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
-2021-05-13 19:46:21,140 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Completed initialization in 0 ms
-2021-05-13 19:46:21,148 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8082-exec-1] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2021-05-13 19:46:39,230 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8082-exec-5] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2021-05-13 19:47:55,332 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-7] Inicio addProducto
-2021-05-13 19:47:55,371 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-7] Fin addProducto
-2021-05-13 19:49:03,993 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-9] Inicio getProductos
-2021-05-13 19:49:04,030 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-10] Inicio getProductos
-2021-05-13 19:49:04,079 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-9] Fin getProductos
-2021-05-13 19:49:04,079 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-10] Fin getProductos
-2021-05-13 19:49:09,475 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-1] Inicio getUsuario
-2021-05-13 19:49:09,491 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.isabel.api_vinted.exception.UsuarioNotFoundException:  ] with root cause
-com.isabel.api_vinted.exception.UsuarioNotFoundException:  
-	at com.isabel.api_vinted.service.UsuarioServiceImpl.lambda$findByEmailAndPassword$0(UsuarioServiceImpl.java:30)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
-	at com.isabel.api_vinted.service.UsuarioServiceImpl.findByEmailAndPassword(UsuarioServiceImpl.java:30)
-	at com.isabel.api_vinted.controller.UsuarioController.getUsuario(UsuarioController.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2021-05-13 19:49:18,405 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-3] Inicio getUsuario
-2021-05-13 19:49:18,407 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-3] Fin getUsuario
-2021-05-13 19:49:37,910 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-5] Inicio addProducto
-2021-05-13 19:49:37,914 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-5] Fin addProducto
-2021-05-13 19:49:38,030 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-4] Inicio getProductos
-2021-05-13 19:49:38,038 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-4] Fin getProductos
-2021-05-13 19:49:38,060 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-2] Inicio getProductos
-2021-05-13 19:49:38,069 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-2] Fin getProductos
-2021-05-13 19:49:59,106 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-6] Inicio getUsuario
-2021-05-13 19:49:59,107 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8082-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.isabel.api_vinted.exception.UsuarioNotFoundException:  ] with root cause
-com.isabel.api_vinted.exception.UsuarioNotFoundException:  
-	at com.isabel.api_vinted.service.UsuarioServiceImpl.lambda$findByEmailAndPassword$0(UsuarioServiceImpl.java:30)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
-	at com.isabel.api_vinted.service.UsuarioServiceImpl.findByEmailAndPassword(UsuarioServiceImpl.java:30)
-	at com.isabel.api_vinted.controller.UsuarioController.getUsuario(UsuarioController.java:44)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2021-05-13 19:50:09,909 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-10] Inicio getUsuario
-2021-05-13 19:50:09,911 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-10] Fin getUsuario
-2021-05-13 19:50:29,848 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-1] Inicio addProducto
-2021-05-13 19:50:29,853 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-1] Fin addProducto
-2021-05-13 19:50:29,962 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-3] Inicio getProductos
-2021-05-13 19:50:29,970 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-3] Fin getProductos
-2021-05-13 19:50:29,982 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-5] Inicio getProductos
-2021-05-13 19:50:29,989 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-5] Fin getProductos
-2021-05-13 19:51:32,457 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-1] Inicio getProductos
-2021-05-13 19:51:32,466 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-1] Fin getProductos
-2021-05-13 19:51:32,495 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-3] Inicio getProductos
-2021-05-13 19:51:32,503 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-3] Fin getProductos
-2021-05-13 19:51:45,225 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-5] Inicio getUsuario
-2021-05-13 19:51:45,226 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-5] Fin getUsuario
-2021-05-13 19:51:56,101 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-4] Inicio addProducto
-2021-05-13 19:51:56,106 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-4] Fin addProducto
-2021-05-13 19:51:56,211 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-2] Inicio getProductos
-2021-05-13 19:51:56,218 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-2] Fin getProductos
-2021-05-13 19:51:56,231 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-6] Inicio getProductos
-2021-05-13 19:51:56,238 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-6] Fin getProductos
-2021-05-13 19:55:28,660 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-5] Inicio getProductos
-2021-05-13 19:55:28,666 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-5] Fin getProductos
-2021-05-13 19:55:28,699 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-4] Inicio getProductos
-2021-05-13 19:55:28,704 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-4] Fin getProductos
-2021-05-13 19:55:50,511 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-2] Inicio getUsuario
-2021-05-13 19:55:50,513 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-2] Fin getUsuario
-2021-05-13 19:57:14,451 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-9] Inicio getProductos
-2021-05-13 19:57:14,456 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-9] Fin getProductos
-2021-05-13 19:57:14,502 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-1] Inicio getProductos
-2021-05-13 19:57:14,507 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-1] Fin getProductos
-2021-05-13 19:57:24,768 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-7] Inicio getUsuario
-2021-05-13 19:57:24,769 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8082-exec-7] Fin getUsuario
-2021-05-13 19:57:40,764 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-3] Inicio addProducto
-2021-05-13 19:57:40,767 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-3] Fin addProducto
-2021-05-13 19:57:40,904 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-5] Inicio getProductos
-2021-05-13 19:57:40,909 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-5] Fin getProductos
-2021-05-13 19:57:40,932 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-4] Inicio getProductos
-2021-05-13 19:57:40,938 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8082-exec-4] Fin getProductos
+2021-05-14 11:12:42,099 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 6284 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
+2021-05-14 11:12:42,099 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-14 11:12:42,462 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-14 11:12:42,485 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2021-05-14 11:12:42,917 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2021-05-14 11:12:42,933 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2021-05-14 11:12:42,933 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-14 11:12:42,933 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-14 11:12:42,986 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-14 11:12:42,986 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 856 ms
+2021-05-14 11:12:43,071 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-14 11:12:43,102 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-14 11:12:43,171 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-14 11:12:43,218 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-14 11:12:43,303 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-14 11:12:43,318 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-05-14 11:12:43,642 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-14 11:12:43,642 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-14 11:12:43,819 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-14 11:12:43,872 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-14 11:12:43,973 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2021-05-14 11:12:43,973 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2021-05-14 11:12:43,973 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-14 11:12:43,973 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-14 11:12:43,973 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-05-14 11:12:43,988 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-05-14 11:12:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8082"]
+2021-05-14 11:12:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-05-14 11:12:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8082"]
+2021-05-14 11:12:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8082"]
+2021-05-14 11:12:43,988 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-14 11:12:44,004 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2021-05-14 11:13:18,632 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 9064 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
+2021-05-14 11:13:18,632 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-14 11:13:18,995 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-14 11:13:19,017 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2021-05-14 11:13:19,450 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2021-05-14 11:13:19,465 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-14 11:13:19,465 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-14 11:13:19,465 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-14 11:13:19,534 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-14 11:13:19,534 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 871 ms
+2021-05-14 11:13:19,619 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-14 11:13:19,650 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-14 11:13:19,719 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-14 11:13:19,766 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-14 11:13:19,866 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-14 11:13:19,866 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-05-14 11:13:20,196 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-14 11:13:20,196 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-14 11:13:20,367 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-14 11:13:20,436 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-14 11:13:20,521 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2021-05-14 11:13:20,537 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-14 11:13:20,537 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiVintedApplication in 2.189 seconds (JVM running for 2.459)
+2021-05-14 11:14:33,057 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-14 11:14:33,058 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-05-14 11:14:33,058 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 0 ms
+2021-05-14 11:14:33,113 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio addProducto
+2021-05-14 11:14:33,156 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin addProducto
+2021-05-14 11:15:31,230 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio addProducto
+2021-05-14 11:15:31,239 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin addProducto
+2021-05-14 11:16:42,308 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-9] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-05-14 11:21:57,620 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 10764 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
+2021-05-14 11:21:57,620 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-14 11:21:57,974 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-14 11:21:58,006 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2021-05-14 11:21:58,445 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2021-05-14 11:21:58,445 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-14 11:21:58,445 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-14 11:21:58,445 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-14 11:21:58,507 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-14 11:21:58,507 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 848 ms
+2021-05-14 11:21:58,607 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-14 11:21:58,623 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-14 11:21:58,692 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-14 11:21:58,745 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-14 11:21:58,839 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-14 11:21:58,846 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-05-14 11:21:59,174 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-14 11:21:59,174 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-14 11:21:59,347 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-14 11:21:59,411 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-14 11:21:59,510 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2021-05-14 11:21:59,510 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-14 11:21:59,525 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiVintedApplication in 2.18 seconds (JVM running for 2.439)
+2021-05-14 11:22:03,943 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-14 11:22:03,944 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-14 11:22:03,945 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2021-05-14 11:22:04,001 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-1] Inicio addUsuario
+2021-05-14 11:22:04,040 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-1] Fin addUsuario
