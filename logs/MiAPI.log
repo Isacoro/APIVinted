@@ -1,106 +1,318 @@
-2021-05-14 11:12:42,099 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 6284 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
-2021-05-14 11:12:42,099 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-05-14 11:12:42,462 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-05-14 11:12:42,485 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
-2021-05-14 11:12:42,917 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
-2021-05-14 11:12:42,933 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
-2021-05-14 11:12:42,933 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2021-05-14 11:12:42,933 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-05-14 11:12:42,986 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2021-05-14 11:12:42,986 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 856 ms
-2021-05-14 11:12:43,071 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-05-14 11:12:43,102 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
-2021-05-14 11:12:43,171 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-05-14 11:12:43,218 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-05-14 11:12:43,303 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-05-14 11:12:43,318 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
-2021-05-14 11:12:43,642 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-05-14 11:12:43,642 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-05-14 11:12:43,819 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-14 11:12:43,872 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-14 11:12:43,973 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
-2021-05-14 11:12:43,973 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
-2021-05-14 11:12:43,973 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2021-05-14 11:12:43,973 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-05-14 11:12:43,973 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
-2021-05-14 11:12:43,988 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
-2021-05-14 11:12:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8082"]
-2021-05-14 11:12:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
-2021-05-14 11:12:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8082"]
-2021-05-14 11:12:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8082"]
-2021-05-14 11:12:43,988 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-05-14 11:12:44,004 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8082 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
-
-2021-05-14 11:13:18,632 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 9064 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
-2021-05-14 11:13:18,632 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-05-14 11:13:18,995 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-05-14 11:13:19,017 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
-2021-05-14 11:13:19,450 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
-2021-05-14 11:13:19,465 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
-2021-05-14 11:13:19,465 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2021-05-14 11:13:19,465 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-05-14 11:13:19,534 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2021-05-14 11:13:19,534 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 871 ms
-2021-05-14 11:13:19,619 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-05-14 11:13:19,650 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
-2021-05-14 11:13:19,719 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-05-14 11:13:19,766 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-05-14 11:13:19,866 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-05-14 11:13:19,866 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
-2021-05-14 11:13:20,196 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-05-14 11:13:20,196 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-05-14 11:13:20,367 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-14 11:13:20,436 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-14 11:13:20,521 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
-2021-05-14 11:13:20,537 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
-2021-05-14 11:13:20,537 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiVintedApplication in 2.189 seconds (JVM running for 2.459)
-2021-05-14 11:14:33,057 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-05-14 11:14:33,058 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
-2021-05-14 11:14:33,058 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 0 ms
-2021-05-14 11:14:33,113 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio addProducto
-2021-05-14 11:14:33,156 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin addProducto
-2021-05-14 11:15:31,230 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio addProducto
-2021-05-14 11:15:31,239 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin addProducto
-2021-05-14 11:16:42,308 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-9] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
-2021-05-14 11:21:57,620 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 10764 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
-2021-05-14 11:21:57,620 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-05-14 11:21:57,974 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-05-14 11:21:58,006 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
-2021-05-14 11:21:58,445 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
-2021-05-14 11:21:58,445 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
-2021-05-14 11:21:58,445 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2021-05-14 11:21:58,445 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
-2021-05-14 11:21:58,507 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2021-05-14 11:21:58,507 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 848 ms
-2021-05-14 11:21:58,607 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-05-14 11:21:58,623 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
-2021-05-14 11:21:58,692 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-05-14 11:21:58,745 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-05-14 11:21:58,839 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-05-14 11:21:58,846 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
-2021-05-14 11:21:59,174 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-05-14 11:21:59,174 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-05-14 11:21:59,347 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-14 11:21:59,411 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-14 11:21:59,510 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
-2021-05-14 11:21:59,510 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
-2021-05-14 11:21:59,525 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiVintedApplication in 2.18 seconds (JVM running for 2.439)
-2021-05-14 11:22:03,943 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-05-14 11:22:03,944 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
-2021-05-14 11:22:03,945 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
-2021-05-14 11:22:04,001 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-1] Inicio addUsuario
-2021-05-14 11:22:04,040 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-1] Fin addUsuario
+2021-05-15 11:04:33,194 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 13452 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
+2021-05-15 11:04:33,196 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-15 11:04:33,556 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-15 11:04:33,589 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2021-05-15 11:04:34,023 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2021-05-15 11:04:34,030 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-15 11:04:34,030 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-15 11:04:34,030 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-15 11:04:34,098 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-15 11:04:34,098 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 872 ms
+2021-05-15 11:04:34,196 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-15 11:04:34,219 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-15 11:04:34,294 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-15 11:04:34,348 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-15 11:04:34,489 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-15 11:04:34,501 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-05-15 11:04:34,870 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-15 11:04:34,875 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-15 11:04:35,056 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-15 11:04:35,111 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-15 11:04:35,205 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2021-05-15 11:04:35,221 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-15 11:04:35,227 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiVintedApplication in 2.342 seconds (JVM running for 2.602)
+2021-05-15 11:04:53,190 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-15 11:04:53,191 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-15 11:04:53,192 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2021-05-15 11:04:53,207 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Inicio getProductos
+2021-05-15 11:04:53,207 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio getProductos
+2021-05-15 11:04:53,368 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin getProductos
+2021-05-15 11:04:53,368 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Fin getProductos
+2021-05-15 11:05:00,251 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Inicio getProductosTop
+2021-05-15 11:05:00,262 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Fin getProductosTop
+2021-05-15 11:05:06,502 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-4] Inicio getUsuariosTop
+2021-05-15 11:05:06,506 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-4] Fin getUsuariosTop
+2021-05-15 11:05:13,031 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio getProductos
+2021-05-15 11:05:13,037 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin getProductos
+2021-05-15 11:05:13,388 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Inicio getProductos
+2021-05-15 11:05:13,394 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Fin getProductos
+2021-05-15 11:05:17,022 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Inicio getProductosCategoria
+2021-05-15 11:05:17,036 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Fin getProductoCategoria
+2021-05-15 11:05:21,860 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Inicio getProductosCategoria
+2021-05-15 11:05:21,864 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Fin getProductoCategoria
+2021-05-15 11:05:25,970 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Inicio getProductosCategoria
+2021-05-15 11:05:25,974 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Fin getProductoCategoria
+2021-05-15 11:05:29,902 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Inicio getProductosCategoria
+2021-05-15 11:05:29,906 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Fin getProductoCategoria
+2021-05-15 11:09:23,678 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Inicio getProductos
+2021-05-15 11:09:23,686 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Fin getProductos
+2021-05-15 11:09:23,713 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Inicio getProductos
+2021-05-15 11:09:23,719 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Fin getProductos
+2021-05-15 11:09:27,757 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Inicio getProductosCategoria
+2021-05-15 11:09:27,760 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Fin getProductoCategoria
+2021-05-15 11:10:57,117 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Inicio getProductos
+2021-05-15 11:10:57,124 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Fin getProductos
+2021-05-15 11:10:57,153 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Inicio getProductos
+2021-05-15 11:10:57,158 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Fin getProductos
+2021-05-15 11:11:33,989 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Inicio getProductos
+2021-05-15 11:11:33,994 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Fin getProductos
+2021-05-15 11:11:34,002 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio getProductos
+2021-05-15 11:11:34,008 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin getProductos
+2021-05-15 11:11:34,017 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Inicio getProductos
+2021-05-15 11:11:34,023 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Fin getProductos
+2021-05-15 11:11:37,101 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Inicio getProductos
+2021-05-15 11:11:37,107 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Fin getProductos
+2021-05-15 11:11:37,115 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Inicio getProductos
+2021-05-15 11:11:37,120 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Fin getProductos
+2021-05-15 11:11:41,212 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Inicio getProductosCategoria
+2021-05-15 11:11:41,216 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Fin getProductoCategoria
+2021-05-15 11:11:50,621 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio getProductosCategoria
+2021-05-15 11:11:50,624 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin getProductoCategoria
+2021-05-15 11:15:18,248 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio getProductos
+2021-05-15 11:15:18,253 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin getProductos
+2021-05-15 11:15:18,284 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Inicio getProductos
+2021-05-15 11:15:18,289 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Fin getProductos
+2021-05-15 11:15:23,237 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Inicio getProductosCategoria
+2021-05-15 11:15:23,240 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Fin getProductoCategoria
+2021-05-15 11:15:55,880 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Inicio getProductos
+2021-05-15 11:15:55,884 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Fin getProductos
+2021-05-15 11:15:55,916 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Inicio getProductos
+2021-05-15 11:15:55,920 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Fin getProductos
+2021-05-15 11:16:09,408 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Inicio getProductos
+2021-05-15 11:16:09,412 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Fin getProductos
+2021-05-15 11:16:09,426 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Inicio getProductos
+2021-05-15 11:16:09,430 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Fin getProductos
+2021-05-15 11:16:12,870 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio getProductosTop
+2021-05-15 11:16:12,874 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin getProductosTop
+2021-05-15 11:16:21,632 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-5] Inicio getUsuariosTop
+2021-05-15 11:16:21,634 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-5] Fin getUsuariosTop
+2021-05-15 11:16:27,995 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Inicio getProductos
+2021-05-15 11:16:28,001 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Fin getProductos
+2021-05-15 11:16:28,340 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Inicio getProductos
+2021-05-15 11:16:28,344 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Fin getProductos
+2021-05-15 11:16:31,697 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio getProductosCategoria
+2021-05-15 11:16:31,699 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin getProductoCategoria
+2021-05-15 11:16:37,996 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Inicio getProductos
+2021-05-15 11:16:38,000 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Fin getProductos
+2021-05-15 11:16:38,010 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Inicio getProductos
+2021-05-15 11:16:38,014 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Fin getProductos
+2021-05-15 11:16:41,882 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Inicio getProductosCategoria
+2021-05-15 11:16:41,884 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Fin getProductoCategoria
+2021-05-15 11:16:49,980 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Inicio getProductosCategoria
+2021-05-15 11:16:49,982 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Fin getProductoCategoria
+2021-05-15 11:16:54,688 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Inicio getProductos
+2021-05-15 11:16:54,692 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Fin getProductos
+2021-05-15 11:16:54,704 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio getProductos
+2021-05-15 11:16:54,708 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin getProductos
+2021-05-15 11:16:58,021 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Inicio getProductos
+2021-05-15 11:16:58,025 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Fin getProductos
+2021-05-15 11:17:22,324 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-10] Inicio getUsuario
+2021-05-15 11:17:22,335 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-10] Fin getUsuario
+2021-05-15 11:17:46,370 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio addProducto
+2021-05-15 11:17:46,417 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin addProducto
+2021-05-15 11:17:46,504 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Inicio getProductos
+2021-05-15 11:17:46,508 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Fin getProductos
+2021-05-15 11:17:46,517 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Inicio getProductos
+2021-05-15 11:17:46,521 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Fin getProductos
+2021-05-15 11:19:01,577 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-7] Inicio addUsuario
+2021-05-15 11:19:01,584 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-7] Fin addUsuario
+2021-05-15 11:19:20,935 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Inicio getProductos
+2021-05-15 11:19:20,939 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Fin getProductos
+2021-05-15 11:19:20,943 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Inicio getProductos
+2021-05-15 11:19:20,947 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Fin getProductos
+2021-05-15 11:19:25,386 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Inicio getProductosCategoria
+2021-05-15 11:19:25,388 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Fin getProductoCategoria
+2021-05-15 11:31:30,709 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiVintedApplication using Java 11.0.8 on DESKTOP-LMTAHC5 with PID 10324 (D:\CURSO\tareas_AndroidStudio\api_vinted\target\classes started by Isabel in D:\CURSO\tareas_AndroidStudio\api_vinted)
+2021-05-15 11:31:30,711 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-15 11:31:31,093 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-15 11:31:31,127 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2021-05-15 11:31:31,599 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2021-05-15 11:31:31,606 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-15 11:31:31,607 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-15 11:31:31,607 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-15 11:31:31,666 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-15 11:31:31,666 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 926 ms
+2021-05-15 11:31:31,769 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-15 11:31:31,793 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-15 11:31:31,870 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-15 11:31:31,923 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-15 11:31:32,018 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-15 11:31:32,029 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-05-15 11:31:32,377 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-15 11:31:32,382 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-15 11:31:32,594 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-15 11:31:32,653 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-15 11:31:32,769 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2021-05-15 11:31:32,785 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-15 11:31:32,791 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiVintedApplication in 2.386 seconds (JVM running for 2.669)
+2021-05-15 11:31:46,924 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-15 11:31:46,925 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-15 11:31:46,926 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2021-05-15 11:31:46,945 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Inicio getProductos
+2021-05-15 11:31:46,945 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio getProductos
+2021-05-15 11:31:47,067 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Fin getProductos
+2021-05-15 11:31:47,067 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin getProductos
+2021-05-15 11:32:10,261 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio getProductos
+2021-05-15 11:32:10,270 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin getProductos
+2021-05-15 11:32:10,272 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Inicio getProductos
+2021-05-15 11:32:10,283 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-7] Fin getProductos
+2021-05-15 11:32:18,902 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Inicio getProductos
+2021-05-15 11:32:18,909 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Fin getProductos
+2021-05-15 11:32:18,922 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Inicio getProductos
+2021-05-15 11:32:18,928 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Fin getProductos
+2021-05-15 11:32:23,006 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Inicio getProductosTop
+2021-05-15 11:32:23,016 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Fin getProductosTop
+2021-05-15 11:32:33,095 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Inicio getProductos
+2021-05-15 11:32:33,101 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Inicio getProductos
+2021-05-15 11:32:33,102 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Fin getProductos
+2021-05-15 11:32:33,107 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Fin getProductos
+2021-05-15 11:32:35,208 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-10] Inicio getUsuariosTop
+2021-05-15 11:32:35,212 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-10] Fin getUsuariosTop
+2021-05-15 11:32:44,106 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio getProductos
+2021-05-15 11:32:44,112 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin getProductos
+2021-05-15 11:32:47,386 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Inicio getProductosCategoria
+2021-05-15 11:32:47,398 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Fin getProductoCategoria
+2021-05-15 11:32:53,251 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Inicio getProductosCategoria
+2021-05-15 11:32:53,255 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-5] Fin getProductoCategoria
+2021-05-15 11:32:57,293 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Inicio getProductosCategoria
+2021-05-15 11:32:57,297 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-6] Fin getProductoCategoria
+2021-05-15 11:33:58,245 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-9] Inicio addUsuario
+2021-05-15 11:33:58,267 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-9] Fin addUsuario
+2021-05-15 11:34:59,406 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio addProducto
+2021-05-15 11:34:59,411 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin addProducto
+2021-05-15 11:34:59,608 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Inicio getProductos
+2021-05-15 11:34:59,618 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-3] Fin getProductos
+2021-05-15 11:34:59,624 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Inicio getProductos
+2021-05-15 11:34:59,629 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-1] Fin getProductos
+2021-05-15 11:35:40,172 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-7] Inicio getUsuario
+2021-05-15 11:35:40,198 ERROR com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-7] santi@gmail.com 457
+com.isabel.api_vinted.exception.UsuarioNotFoundException: santi@gmail.com 457
+	at com.isabel.api_vinted.service.UsuarioServiceImpl.lambda$findByEmailAndPassword$0(UsuarioServiceImpl.java:30)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.isabel.api_vinted.service.UsuarioServiceImpl.findByEmailAndPassword(UsuarioServiceImpl.java:30)
+	at com.isabel.api_vinted.controller.UsuarioController.getUsuario(UsuarioController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-05-15 11:35:41,288 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-5] Inicio getUsuario
+2021-05-15 11:35:41,289 ERROR com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-5] santi@gmail.com 457
+com.isabel.api_vinted.exception.UsuarioNotFoundException: santi@gmail.com 457
+	at com.isabel.api_vinted.service.UsuarioServiceImpl.lambda$findByEmailAndPassword$0(UsuarioServiceImpl.java:30)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at com.isabel.api_vinted.service.UsuarioServiceImpl.findByEmailAndPassword(UsuarioServiceImpl.java:30)
+	at com.isabel.api_vinted.controller.UsuarioController.getUsuario(UsuarioController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-05-15 11:35:55,063 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-6] Inicio getUsuario
+2021-05-15 11:35:55,065 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-6] Fin getUsuario
+2021-05-15 11:36:02,327 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Inicio getProductos
+2021-05-15 11:36:02,335 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-10] Fin getProductos
+2021-05-15 11:36:02,336 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio getProductos
+2021-05-15 11:36:02,342 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin getProductos
+2021-05-15 12:07:24,204 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Inicio getProductos
+2021-05-15 12:07:24,210 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-8] Fin getProductos
+2021-05-15 12:07:24,242 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Inicio getProductos
+2021-05-15 12:07:24,247 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-4] Fin getProductos
+2021-05-15 12:07:30,263 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Inicio getProductosTop
+2021-05-15 12:07:30,268 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-9] Fin getProductosTop
+2021-05-15 12:07:34,493 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-10] Inicio getUsuariosTop
+2021-05-15 12:07:34,496 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-10] Fin getUsuariosTop
+2021-05-15 12:07:38,638 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Inicio getProductos
+2021-05-15 12:07:38,643 INFO com.isabel.api_vinted.controller.ProductoController [http-nio-8081-exec-2] Fin getProductos
+2021-05-15 12:08:19,635 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-3] Inicio getUsuario
+2021-05-15 12:08:19,636 INFO com.isabel.api_vinted.controller.UsuarioController [http-nio-8081-exec-3] Fin getUsuario
